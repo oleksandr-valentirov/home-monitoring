@@ -6,3 +6,5 @@ Setup is tested on a Raspberry Pi 5 8Gb version, and docker-compose.yml contains
 
 ## Traffic monitoring
 Traffic monitoring is based on analysis of Traffic Flow data from the Mikrotik router - aggregating it with pmacct, performing GeoIP enrichment, posting these metrics in JSON format to InfluxDB through telegraf, and visualising with Grafana and [custom pmacct dashboard](/pmacct/grafana_dashboard.json).
+
+Also there is a pi-hole service to performn traffic filtering.
